@@ -1,0 +1,17 @@
+{
+  "name": "framework",
+  "version": "1.0.0",
+  "description": "framework tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo false"
+  },
+  "author": "Bernardo Dias",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.7",
+    "posthtml": "^0.8.5",
+    "posthtml-exp": "^0.8.1",
+    "posthtml-package-html": "^0.2.0"
+  }
+}
