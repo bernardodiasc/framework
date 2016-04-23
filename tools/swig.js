@@ -2,10 +2,11 @@
 
 var fs  = require('fs');
 var swig  = require('swig');
-var data = require('../public/data.json');
+var data = {};
 
-var content = swig.renderFile('../sources/templates/pages/index.swig', data);
-fs.writeFile('../index.html', content, (err) => {
+var content = swig.renderFile('./src/templates/index.swig', data);
+
+fs.writeFile('./build/index.html', content, (err) => {
   if (err) return err;
   console.log(content);
 });

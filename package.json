@@ -10,8 +10,10 @@
   "license": "ISC",
   "devDependencies": {
     "electron-prebuilt": "^0.37.7",
+    "jade": "^1.11.0",
     "posthtml": "^0.8.5",
     "posthtml-exp": "^0.8.1",
-    "posthtml-package-html": "^0.2.0"
+    "posthtml-package-html": "^0.2.0",
+    "swig": "^1.4.2"
   }
 }
