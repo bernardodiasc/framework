@@ -1,0 +1,11 @@
+{
+  "compilers" : [
+    "html": "swig",
+    "css": "postcss",
+    "js": "rollup"
+  ],
+  "generators": [
+    "fixtures": "fixtures",
+    "documentator": ""
+  ]
+}

@@ -1,0 +1,23 @@
+/*
+  # Index CSS
+
+  Settings: Global variables, config switches;
+  Tools: Default mixins and functions;
+  Generic: Ground-zero styles;
+  Base: Unclassed HTML elements;
+  Objects: Cosmetic-free design patterns;
+  Components: Designed components, chunks of UI;
+  Themes: Custom overrides;
+  Tests: Custom overrides;
+  Trumps: Helpers and overrides;
+*/
+
+@import "settings.variables.css";
+@import "tools.mixins.css";
+@import "tools.functions.css";
+@import "tools.animations.css";
+@import "generic.reset.css";
+@import "generic.normalize.css";
+@import "base.forms.css";
+@import "base.tables.css";
+@import "base.typography.css";

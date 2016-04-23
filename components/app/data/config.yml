@@ -1,0 +1,5 @@
+component: app
+data: samples
+html: swig
+css: postcss
+js: browserify
