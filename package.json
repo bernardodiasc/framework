@@ -23,6 +23,7 @@
     "posthtml-exp": "^0.8.1",
     "posthtml-package-html": "^0.2.0",
     "readdirp": "^2.0.0",
+    "rollup": "^0.26.0",
     "rucksack-css": "^0.8.6",
     "stylelint": "^6.1.1",
     "stylelint-config-standard": "^6.0.0",
