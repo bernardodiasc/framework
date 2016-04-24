@@ -1,5 +1,9 @@
 /*
-  # Index CSS
+  @page app App styles
+
+  this is the bootstrap style
+
+  @body
 
   Settings: Global variables, config switches;
   Tools: Default mixins and functions;

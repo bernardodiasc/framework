@@ -10,6 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "cssnano": "^3.5.2",
+    "documentjs": "^0.4.4",
     "electron-prebuilt": "^0.37.7",
     "event-stream": "^3.3.2",
     "fs": "0.0.2",

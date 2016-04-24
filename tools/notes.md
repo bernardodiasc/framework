@@ -8,6 +8,7 @@
 - http://succss.ifzenelse.net/ css regression based on screenshot diff
 - https://garris.github.io/BackstopJS/ responsive tests
 - http://frontux.com/testando-interafaces/
+- http://mochajs.org/
 
 Testes de Performance: http://jsperf.com/, Dev tools do Firefox, http://opbeat.com/, http://newrelic.com/
 Testes de Carga/Stress: https://github.com/marmelab/gremlins.js
@@ -30,3 +31,8 @@ plugins to be included:
 - https://github.com/rollup/rollup/wiki/JavaScript-API
 - https://github.com/rollup/rollup-starter-project
 - https://github.com/rollup/rollup/wiki/Plugins
+
+# documentjs
+
+- http://documentcss.com/
+- http://documentjs.com/
