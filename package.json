@@ -9,13 +9,27 @@
   "author": "Bernardo Dias",
   "license": "ISC",
   "devDependencies": {
+    "cssnano": "^3.5.2",
     "electron-prebuilt": "^0.37.7",
+    "event-stream": "^3.3.2",
+    "fs": "0.0.2",
     "jade": "^1.11.0",
+    "jsonfile": "^2.3.0",
+    "path": "^0.12.7",
     "postcss": "^5.0.19",
+    "postcss-import": "^8.1.0",
+    "postcss-reporter": "^1.3.3",
     "posthtml": "^0.8.5",
     "posthtml-exp": "^0.8.1",
     "posthtml-package-html": "^0.2.0",
+    "readdirp": "^2.0.0",
     "rucksack-css": "^0.8.6",
-    "swig": "^1.4.2"
+    "stylelint": "^6.1.1",
+    "stylelint-config-standard": "^6.0.0",
+    "swig": "^1.4.2",
+    "task-glob": "^0.1.3"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard"
   }
 }
