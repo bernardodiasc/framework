@@ -9,12 +9,22 @@
 - https://garris.github.io/BackstopJS/ responsive tests
 - http://frontux.com/testando-interafaces/
 - http://mochajs.org/
-
-Testes de Performance: http://jsperf.com/, Dev tools do Firefox, http://opbeat.com/, http://newrelic.com/
-Testes de Carga/Stress: https://github.com/marmelab/gremlins.js
-Testes de Integração: http://pioneerjs.com/
-Testes de E2E: http://dalekjs.com/
-Testes de Regressão: https://garris.github.io/BackstopJS/
+- Performance: http://jsperf.com/
+- Carga/Stress: https://github.com/marmelab/gremlins.js
+- Integração: http://pioneerjs.com/
+- E2E: http://dalekjs.com/
+- Regressão: https://garris.github.io/BackstopJS/
+- Syntax
+  - CSSLint
+- Per-project
+  - HTML Inspector
+  - GhostStory
+- Reference Browser Comparison
+  - Web Consistency Testing (MogoTest)
+- Regression
+  - Image Diff (CSSCritic)
+  - Frozen DOM (cssert)
+  - GhostStory
 
 ## postcss
 
