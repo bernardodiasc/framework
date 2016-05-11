@@ -1,11 +1,13 @@
 {
-  "compilers" : [
+  "compilers" : {
     "html": "swig",
     "css": "postcss",
     "js": "rollup"
-  ],
-  "generators": [
+  },
+  "generators": {
     "fixtures": "fixtures",
     "documentator": ""
-  ]
+  },
+  "entry": "components/app/",
+  "output": "build/"
 }

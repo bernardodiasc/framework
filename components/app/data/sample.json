@@ -1,3 +1,40 @@
 {
-  "title": "Framework tools"
+  "title": "Framework tools",
+  "components": [
+    {
+      "component": "app",
+      "data": "sample",
+      "html": "swig",
+      "css": "postcss",
+      "js": "rollup",
+      "files": {
+        "data": [
+          "config.yml",
+          "sample.json"
+        ],
+        "scripts": [
+          "index.js",
+          "math.js"
+        ],
+        "styles": [
+          "settings.variables.css",
+          "tools.mixins.css",
+          "tools.functions.css",
+          "tools.animations.css",
+          "generic.reset.css",
+          "generic.normalize.css",
+          "base.forms.css",
+          "base.tables.css",
+          "base.typography.css"
+        ],
+        "templates": [
+          "index.swig",
+          "layout.swig"
+        ],
+        "tests": [
+          "index.js"
+        ]
+      }
+    }
+  ]
 }

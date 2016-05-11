@@ -1,5 +1,5 @@
 component: app
-data: samples
+data: sample
 html: swig
 css: postcss
-js: browserify
+js: rollup

@@ -25,6 +25,7 @@
   - Image Diff (CSSCritic)
   - Frozen DOM (cssert)
   - GhostStory
+- http://hardy.io/
 
 ## postcss
 
@@ -46,3 +47,7 @@ plugins to be included:
 
 - http://documentcss.com/
 - http://documentjs.com/
+
+
+http://documentation.js.org/
+https://github.com/peterKaleta/fixture-factory
