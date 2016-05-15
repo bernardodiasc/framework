@@ -1,24 +1,3 @@
-#!/usr/bin/env node
-
-'use strict'
-
-
-var map = require('map-stream');
-var vfs = require('vinyl-fs');
-
-var log = function(file, cb) {
-  console.log(file.path);
-  cb(null, file);
-};
-
-vfs.src(['./components/**/*.md'])
-  .pipe(map(log))
-  .pipe(vfs.dest('./build/docs'));
-
-
-
-
-/*
 # Documentator
 
 This tool do something!!!!!!!
@@ -44,10 +23,3 @@ a documentacao dessa tool vai ser só a do frontmatter
 
 tentar fazer subprocessos, tipo: frontmatter "diretorio"
 
-
-
-*/
-
-/**
- * Read configuration
- */

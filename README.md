@@ -58,7 +58,6 @@ Right now everything is hard coded and compiling by a single entry (that is /com
 
 ```
 Note: tools currently working:
-- documentjs
 - electron
 - postcss
 - rollup

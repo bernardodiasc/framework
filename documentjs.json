@@ -1,8 +1,0 @@
- {
-   "sites": {
-     "tools": {
-       "glob": "{tools,components}/**/*.{js,css,md}",
-       "dest": "build/styleguide/"
-     }
-   }
- }
