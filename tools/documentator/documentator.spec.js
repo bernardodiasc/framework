@@ -27,7 +27,7 @@ describe('function', function() {
 
   beforeEach(function() {
     documentator = require('./documentator.js')
-    basepath = 'tools/documentator/'
+    basepath = './tools/documentator'
     fixture = [
       {
         "type": "file",
