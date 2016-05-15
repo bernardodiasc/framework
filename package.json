@@ -9,15 +9,20 @@
   "author": "Bernardo Dias",
   "license": "ISC",
   "devDependencies": {
+    "chai": "^3.5.0",
     "cssnano": "^3.5.2",
-    "dalekjs": "0.0.9",
     "electron-prebuilt": "^0.37.7",
+    "eslint": "^2.10.1",
     "fs": "0.0.2",
     "jade": "^1.11.0",
     "jasmine": "^2.4.1",
     "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-commonjs": "^1.0.0",
+    "karma-mocha": "^1.0.1",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "mocha": "^2.4.5",
     "path": "^0.12.7",
-    "phantomjs": "^2.1.7",
     "phantomjs-prebuilt": "^2.1.7",
     "postcss": "^5.0.19",
     "postcss-import": "^8.1.0",
@@ -28,6 +33,7 @@
     "rollup": "^0.26.0",
     "stylelint": "^6.1.1",
     "stylelint-config-standard": "^6.0.0",
-    "swig": "^1.4.2"
+    "swig": "^1.4.2",
+    "util": "^0.10.3"
   }
 }

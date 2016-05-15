@@ -23,43 +23,43 @@ tree tools/documentator/
 
 */
 
-describe('function', function() {
-
-  beforeEach(function() {
-    documentator = require('./documentator.js')
-    basepath = './tools/documentator'
-    fixture = [
+var expect = require('chai').expect
+var documentator = require('./documentator.js')
+var basepath = './tools/documentator'
+var fixture = [
+  {
+    'type': 'file',
+    'name': 'README.md'
+  },
+  {
+    'type': 'file',
+    'name': 'documentator.js'
+  },
+  {
+    'type': 'file',
+    'name': 'documentator.spec.js'
+  },
+  {
+    'type': 'file',
+    'name': 'index.js'
+  },
+  {
+    'name': 'fixture',
+    'type': 'folder',
+    'children': [
       {
-        "type": "file",
-        "name": "README.md"
-      },
-      {
-        "type": "file",
-        "name": "documentator.js"
-      },
-      {
-        "type": "file",
-        "name": "documentator.spec.js"
-      },
-      {
-        "type": "folder",
-        "name": "fixture",
-        "children": [
-          {
-            "type": "file",
-            "name": "README.md"
-          }
-        ]
-      },
-      {
-        "type": "file",
-        "name": "index.js"
+        'type': 'file',
+        'name': 'README.md'
       }
     ]
-  })
+  }
+]
 
-  it('test output', function () {
-    expect(documentator(basepath)).toEqual(fixture)
+describe('documentator', function() {
+  it('expect documentator with basepath to be equal fixture', function() {
+    documentator(basepath, function(structure) {
+      expect(structure).to.deep.equal(fixture)
+    })
   })
-
 })
+

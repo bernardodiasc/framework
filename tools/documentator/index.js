@@ -3,4 +3,7 @@
 'use strict'
 
 var documentator = require('./documentator.js')
-documentator()
+
+documentator('tools', function(structure) {
+  console.log(structure)
+})
